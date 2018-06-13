@@ -1,4 +1,9 @@
 module.exports = {
-  title: 'Hello VuePress',
-  description: 'Just playing around'
+  title: 'VuePress',
+  description: 'Vue-powered Static Site Generator',
+  serviceWorker: true,
+  themeConfig: {
+    docsDir: 'docs',
+    sidebar: ['/', '/introduction', '/config', '/assets'],
+  },
 };
