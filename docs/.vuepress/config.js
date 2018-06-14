@@ -4,6 +4,6 @@ module.exports = {
   serviceWorker: true,
   themeConfig: {
     docsDir: 'docs',
-    sidebar: ['/', '/introduction', '/config', '/assets'],
+    sidebar: ['/', '/introduction', '/config', '/assets', '/deploy'],
   },
 };
